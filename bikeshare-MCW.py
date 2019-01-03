@@ -328,7 +328,6 @@ def station_stats(df):
         for start in popular_start:
             print(start)
             
-    
     print()
     
     popular_end = df['End Station'].mode()
@@ -341,8 +340,8 @@ def station_stats(df):
     elif len(popular_end) > 1:
         print('Note: Multiple End Station Modes detected ({} modes), with a count of {}. Here are the most common End Stations:'.format(len(popular_end), end_count))
         
-        for i in range(len(popular_end)):
-            print(popular_end[i])
+        for end in popular_end:
+            print(end)
     
     print()
     
