@@ -1,12 +1,11 @@
 ## Date created
-bikeshare-MCW.py created on 12/20/2018
-readme.txt created on 12/29/2018
-Project submitted on 12/29/2018
+* bikeshare-MCW.py created on 12/20/2018
+* readme.txt created on 12/29/2018
+* Project submitted on 12/29/2018
 
 ## US Bikeshare Statistics Program
 
 ## Description
-Describe what your project is about and what it does
 This program is a statistical analysis tool to explore basic demographic information about users in several major cities.
 
 ## Files used
