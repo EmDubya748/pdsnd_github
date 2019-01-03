@@ -355,9 +355,9 @@ def station_stats(df):
     
     elif len(popular_combo) > 1:
         print('Note: Multiple Start Station-End Station combination modes detected ({} modes), with a count of {}. Here are the most common trips:\n'.format(len(popular_combo), combo_count))
-        
-        for i in range(len(popular_combo)):
-            print(popular_combo[i])
+            
+        for combo in popular_combo:
+            print(combo)
             
     print()
     
