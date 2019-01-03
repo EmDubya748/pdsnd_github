@@ -13,5 +13,6 @@ This program is a statistical analysis tool to explore basic demographic informa
 * readme.txt
 * Data files: chicago.csv, new york city.csv, washington.csv
 
-## Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## Credits/References
+* 3 day bike pass: https://www.capitalbikeshare.com/pricing/day-passes
+* Minimum Age Requirement: https://app.socialbicycles.com/networks/42/terms
