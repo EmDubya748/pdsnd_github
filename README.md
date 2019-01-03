@@ -9,7 +9,9 @@
 This program is a statistical analysis tool to explore basic demographic information about users in several major cities.
 
 ## Files used
-Include the files used
+* bikeshare-MCW.py
+* readme.txt
+* Data files: chicago.csv, new york city.csv, washington.csv
 
 ## Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
