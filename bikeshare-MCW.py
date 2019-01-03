@@ -604,6 +604,7 @@ def plot_data(df, filter_city, filter_type, filter_month, filter_day):
     
         see_data = input('Would you like to see plots of the data (y/n)? ')
         see_data = see_data.upper()
+        start = timer()
         
         while see_data not in ['Y', 'N', 'YES', 'NO']:
             see_data = input('Please enter a valid option for data visualization (y/n): ')
@@ -880,6 +881,10 @@ def plot_data(df, filter_city, filter_type, filter_month, filter_day):
 
                 fig.subplots_adjust(bottom=0.1, top=0.9, wspace=0.25, hspace=0.5)
                 plt.show()
+        
+        end = timer()
+        print('Computation time: {:.4f} seconds.'.format(end - start))
+        
     except:
         print('Looks like matplotlib is not installed')
         
