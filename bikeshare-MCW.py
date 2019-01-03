@@ -325,8 +325,9 @@ def station_stats(df):
     elif len(popular_start) > 1:
         print('Note: Multiple Start Station Modes detected ({} modes), with a count of {}. Here are the most common Start Stations:'.format(len(popular_start), start_count))
         
-        for i in range(len(popular_start)):
-            print(popular_start[i])
+        for start in popular_start:
+            print(start)
+            
     
     print()
     
